@@ -1,0 +1,46 @@
+.body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  height: 400px;
+  width: 250px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.picutre {
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.font-one {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.font-two {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  margin-top: 0px;
+  text-align: center;
+}
